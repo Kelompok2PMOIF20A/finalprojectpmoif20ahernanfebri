@@ -1,6 +1,6 @@
-import 'package:finalprojectpmo/splashscreen_view.dart';
+import 'package:finalprojectpmo/screens/splashscreen_view.dart';
 import 'package:flutter/material.dart';
-import 'package:finalprojectpmo/splashscreen_view.dart';
+import 'package:finalprojectpmo/screens/splashscreen_view.dart';
 
 void main() {
   runApp(MaterialApp(

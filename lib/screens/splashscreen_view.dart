@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:finalprojectpmo/splashscreen_view.dart';
+
 import 'dart:async';
 
-import 'home_view.dart';
+import 'package:finalprojectpmo/screens/login_view.dart';
 
 class SplashScreenPage extends StatefulWidget {
   @override
@@ -22,7 +22,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
     return Timer(duration, () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (_) {
-          return HomePage();
+          return LoginPage();
         }),
       );
     });
