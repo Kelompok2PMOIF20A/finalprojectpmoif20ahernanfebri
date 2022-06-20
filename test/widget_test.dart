@@ -7,6 +7,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+//import 'package:login_register_layout/main.dart';
+//await tester.pumpWidget(MyApp());
 
 import 'package:finalprojectpmo/main.dart';
 

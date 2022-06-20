@@ -34,7 +34,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
       backgroundColor: Color(0xff329cef),
       body: Center(
         child: Image.asset(
-          "assets/logo.png",
+          "assets/images/logo.png",
           width: 1000.0,
           height: 700.0,
         ),
