@@ -8,8 +8,8 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffcd0000),
       body: Container(
-        color: ColorPalette.primaryColor,
         padding: EdgeInsets.all(20.0),
         child: ListView(
           children: <Widget>[
@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.only(top: 16.0),
         ),
         Text(
-          "Login into app",
+          "Halo , Selamat Datang di SIDORA",
           style: TextStyle(
             color: Colors.white,
             fontSize: 16.0,
@@ -54,7 +54,7 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.only(top: 12.0),
         ),
         Text(
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ante lacus, eu pretium purus vulputate sit amet.",
+          "Sign In to Continue",
           style: TextStyle(
             fontSize: 12.0,
             color: Colors.white,

@@ -8,14 +8,14 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffcd0000),
       body: Container(
-        color: ColorPalette.primaryColor,
         padding: EdgeInsets.all(20.0),
         child: ListView(
-            children: <Widget<[
+            children: <Widget>[
         Center(
         child: Column(
-            children: <Widget<[
+            children: <Widget>[
             _iconRegister(),
         _titleDescription(),
         _textField(),
@@ -38,12 +38,12 @@ class RegisterPage extends StatelessWidget {
 
   Widget _titleDescription() {
     return Column(
-        children: <Widget<[
+        children: <Widget>[
     Padding(
     padding: EdgeInsets.only(top: 16.0),
     ),
     Text(
-    "Registration",
+    "Registration Donor Darah",
     style: TextStyle(
     color: Colors.white,
     fontSize: 16.0,
@@ -53,7 +53,7 @@ class RegisterPage extends StatelessWidget {
     padding: EdgeInsets.only(top: 12.0),
     ),
     Text(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ante lacus, eu pretium purus vulputate sit amet.",
+    "Sign Up to Continue",
     style: TextStyle(
     fontSize: 12.0,
     color: Colors.white,
@@ -66,7 +66,7 @@ class RegisterPage extends StatelessWidget {
 
   Widget _textField() {
     return Column(
-        children: <Widget<[
+        children: <Widget>[
     Padding(
     padding: EdgeInsets.only(top: 12.0),
     ),
@@ -147,7 +147,7 @@ class RegisterPage extends StatelessWidget {
 
   Widget _buildButton(BuildContext context) {
     return Column(
-        children: <Widget<[
+        children: <Widget>[
     Padding(
     padding: EdgeInsets.only(top: 16.0),
     ),
