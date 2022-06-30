@@ -15,7 +15,7 @@ import 'package:finalprojectpmo/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget(const MaterialApp());
     //import 'package:flutter_splashscreen/main.dart';
     //await tester.pumpWidget(MyApp());
 

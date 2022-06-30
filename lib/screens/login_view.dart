@@ -1,3 +1,4 @@
+import 'package:finalprojectpmo/screens/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:finalprojectpmo/constants.dart';
 import 'package:finalprojectpmo/screens/register_view.dart';
@@ -128,6 +129,10 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.only(top: 16.0),
         ),
         InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()),
+            );
+          },
           child: Container(
             padding: EdgeInsets.symmetric(vertical: 8.0),
             width: double.infinity,
