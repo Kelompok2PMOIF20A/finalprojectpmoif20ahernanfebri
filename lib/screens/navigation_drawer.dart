@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'Navigation Drawer',
+          'Home',
         ),
         backgroundColor: const Color(0xffcd0000),
       ),
@@ -46,6 +46,15 @@ class HomePage extends StatelessWidget {
                 Icons.person,
               ),
               title: const Text('Profile'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.question_mark,
+              ),
+              title: const Text('Persyaratan Pendonor'),
               onTap: () {
                 Navigator.pop(context);
               },
