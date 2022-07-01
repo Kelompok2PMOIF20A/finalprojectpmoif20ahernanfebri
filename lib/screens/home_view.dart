@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
         title: const Text(
           'Navigation Drawer',
         ),
-        backgroundColor: const Color(0xff764abc),
+        backgroundColor: const Color(0xffcd0000),
       ),
       drawer: Drawer(
         child: ListView(
@@ -17,15 +17,15 @@ class HomePage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             const UserAccountsDrawerHeader( // <-- SEE HERE
-              decoration: BoxDecoration(color: const Color(0xff764abc)),
+              decoration: BoxDecoration(color: const Color(0xFFF44336)),
               accountName: Text(
-                "Pinkesh Darji",
+                "Arief Ade I",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
               ),
               accountEmail: Text(
-                "pinkesh.earth@gmail.com",
+                "ariefade1@gmail.com",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
@@ -36,19 +36,28 @@ class HomePage extends StatelessWidget {
               leading: Icon(
                 Icons.home,
               ),
-              title: const Text('Page 1'),
+              title: const Text('Home'),
               onTap: () {
                 Navigator.pop(context);
               },
             ),
             ListTile(
               leading: Icon(
-                Icons.train,
+                Icons.person,
               ),
-              title: const Text('Page 2'),
+              title: const Text('Profile'),
               onTap: () {
                 Navigator.pop(context);
               },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.logout,
+              ),
+              title: const Text('Logout'),
+              onTap: () {
+                Navigator.pop(context);
+                },
             ),
           ],
         ),
