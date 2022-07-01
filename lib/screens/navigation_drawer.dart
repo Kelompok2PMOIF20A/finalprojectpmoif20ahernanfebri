@@ -64,9 +64,7 @@ class HomePage extends StatelessWidget {
                 Icons.logout,
               ),
               title: const Text('Logout'),
-              onTap: () {
-                Navigator.pop(context);
-                },
+              onTap: () => Navigator.pushReplacementNamed(context, '/')
             ),
           ],
         ),

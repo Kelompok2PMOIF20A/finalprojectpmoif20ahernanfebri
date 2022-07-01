@@ -6,6 +6,10 @@ async
 2.12
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/lib/
+bloc
+2.0
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-0.9.5/
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-0.9.5/lib/
 boolean_selector
 2.12
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/
@@ -34,6 +38,10 @@ fake_async
 2.12
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.0/
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.0/lib/
+flutter_bloc
+2.0
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-0.7.1/
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-0.7.1/lib/
 flutter_lints
 2.12
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/
@@ -58,6 +66,10 @@ path
 2.12
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.1/
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.1/lib/
+rxdart
+2.0
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.20.0/
+file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.20.0/lib/
 source_span
 2.14
 file:///D:/fff/PMO/Baru/flutter_windows_3.0.3-stable/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.2/
