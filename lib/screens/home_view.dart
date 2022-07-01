@@ -1,22 +1,67 @@
-import 'package:finalprojectpmo/main.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   @override
-  Widget build(BuildContext context) => new Scaffold(
-    appBar: new AppBar(
-      title: new Text('Home'),
-    ),
-    body: new Container(
-      margin: new EdgeInsets.only(
-          top: 50.0
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text(
+          'Navigation Drawer',
+        ),
+        backgroundColor: const Color(0xff764abc),
       ),
-      alignment: Alignment.center,
-      child: new Column(
-        children: <Widget>[
-          new Text('Welcome to App!'),
-        ],
+      drawer: Drawer(
+        child: ListView(
+          // Important: Remove any padding from the ListView.
+          padding: EdgeInsets.zero,
+          children: [
+            const UserAccountsDrawerHeader( // <-- SEE HERE
+              decoration: BoxDecoration(color: const Color(0xff764abc)),
+              accountName: Text(
+                "Pinkesh Darji",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              accountEmail: Text(
+                "pinkesh.earth@gmail.com",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              currentAccountPicture: FlutterLogo(),
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.home,
+              ),
+              title: const Text('Page 1'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.train,
+              ),
+              title: const Text('Page 2'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
       ),
-    ),
-  );
+      body: Center(
+        child: Column(
+          children: [
+            SizedBox(
+              height: 50,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 }
