@@ -1,3 +1,4 @@
+import 'package:finalprojectpmo/screens/requirement.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -56,7 +57,7 @@ class HomePage extends StatelessWidget {
               ),
               title: const Text('Persyaratan Pendonor'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Requirement()));
               },
             ),
             ListTile(
