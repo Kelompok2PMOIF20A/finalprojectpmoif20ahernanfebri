@@ -1,15 +1,18 @@
 import 'package:finalprojectpmo/screens/requirement.dart';
 import 'package:finalprojectpmo/screens/profile.dart';
+import 'package:finalprojectpmo/screens/square.dart';
+import 'package:finalprojectpmo/screens/homepage.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'Home',
+          'Dashboard',
         ),
         backgroundColor: const Color(0xffcd0000),
       ),
@@ -40,7 +43,7 @@ class HomePage extends StatelessWidget {
               ),
               title: const Text('Home'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => HomeSc()));
               },
             ),
             ListTile(
